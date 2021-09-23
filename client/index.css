@@ -1,0 +1,70 @@
+body {
+    background: aliceblue;
+    color: rgb(69, 69, 69);
+    /* border: solid; */
+}
+
+body > .bg{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(217, 237, 255);
+    clip-path: polygon(0 11%, 100% 78%, 100% 87%, 0 74%);
+    position: absolute;
+    z-index: -1;
+}
+
+#one {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#stuart {
+    height: 150px;
+    padding: 5px 15px;
+}
+
+#stu-pic {
+    width: 14%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-align:right;
+    /* border:solid; */
+    padding: 5px;
+}
+
+#header {
+    /* border: solid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:17%;
+    padding: 5px;
+}
+
+#help {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+}
+
+.grid {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height:250px;
+    /* border: solid; */
+}
+
+button {
+    height: 50px;
+    width: 150px;
+    background-color: azure;
+    border-radius: 15px;
+}
+
+button:hover {
+    background-color: aliceblue;
+}
