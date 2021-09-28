@@ -19,12 +19,12 @@ body > .bg{
     align-items: center;
 }
 
-#stuart {
+#addy {
     height: 150px;
     padding: 5px 15px;
 }
 
-#stu-pic {
+#addy-pic {
     width: 14%;
     display: flex;
     justify-content: flex-start;
@@ -67,4 +67,8 @@ button {
 
 button:hover {
     background-color: aliceblue;
+}
+
+.button {
+    font-weight: 600;
 }
